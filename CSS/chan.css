@@ -1,0 +1,32 @@
+
+  .card1{
+  border: 3px outset lightblue;
+  margin:20px;
+  width: 900px;
+  height: 750px;
+  text-align:left;
+  }
+  #card2{
+    
+    border: 3px outset lightblue;
+    margin-right:50px;
+    width: 200px;
+    height: 540px;
+    }
+    .aside{
+        border: 3px outset lightblue;
+            
+            padding-left: 15px;
+            margin-left: 15px;
+            float: right;
+            flood-opacity: 70px;
+            
+            
+          }
+    }
+  
+   table,tr,th,td{
+       border:2px solid;
+       
+   }
+   

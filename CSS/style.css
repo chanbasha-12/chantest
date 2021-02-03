@@ -1,11 +1,20 @@
-body {
-    background-color: lightblue;
-  }
-  
-
-  
-  p {
-    font-family: verdana;
-    font-size: 20px;
-  }
-  
+h2{
+  background-color:lightblue ;  
+}
+.card1,.card2{
+border: 3px outset red;
+padding: 20PX;
+margin:20px;
+width: 400px;
+}
+.parent{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.card1{
+flex:0.1;
+}
+.card2{
+flex:0.3;
+}
