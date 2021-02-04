@@ -1,32 +1,24 @@
 
-  .card1{
-  border: 3px outset lightblue;
-  margin:20px;
-  width: 900px;
-  height: 750px;
-  text-align:left;
-  }
-  #card2{
+   .h2{
+    background-color:lightblue ;  
+    }
+    .card1,.card2{
+    border: 3px outset red;
+    padding: 20PX;
+    margin:20px;
+    width: 400px;
+    }
+    .parent{
+    display:flex;
+    flex-direction: row;
+    }
+    .card1{
+    flex:0.1;
+    }
+    .card2{
+    flex:0.8;
+    }
+    table,tr,th,td{
+    border:2px solid;
     
-    border: 3px outset lightblue;
-    margin-right:50px;
-    width: 200px;
-    height: 540px;
     }
-    .aside{
-        border: 3px outset lightblue;
-            
-            padding-left: 15px;
-            margin-left: 15px;
-            float: right;
-            flood-opacity: 70px;
-            
-            
-          }
-    }
-  
-   table,tr,th,td{
-       border:2px solid;
-       
-   }
-   
