@@ -22,3 +22,17 @@
     border:2px solid;
     
     }
+    @media screen and(max-width:300px){
+     .parent{
+       display:flex;
+     }
+     .card1{
+       flex-direction: column;
+       background-color: lightcoral;
+     }
+     .card2{
+       flex-direction: column;
+       background-color: lightseagreen;
+     }
+    }
+    
